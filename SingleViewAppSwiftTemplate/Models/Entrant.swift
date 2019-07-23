@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Entrant: Swipable {
+class Entrant: Swiping {
   // MARK: - Properties
   var firstName: String?
   var lastName: String?
@@ -35,29 +35,6 @@ class Entrant: Swipable {
     self.state = state
     self.zipCode = zipCode
     self.dateOfBirth = dateOfBirth
-  }
-  
-  func nameCheck() throws {
-    guard let firstName = firstName else { throw ErrorType.MissingName }
-    guard let lastName = lastName else { throw ErrorType.MissingName }
-    
-    if firstName.isEmpty {
-      print("Must enter your first name.")
-    }
-    if lastName.isEmpty {
-      print("Must enter your last name.")
-    }
-  }
-  
-  func addressCheck() throws {
-    guard let streetAddress = streetAddress else { throw ErrorType.MissingStreetAddress }
-    guard let city = city else { throw ErrorType.MissingCity }
-    guard let state = state else { throw ErrorType.MissingState }
-    guard let zipCode = zipCode else { throw ErrorType.MissingZipCode }
-    
-    if streetAddress.isEmpty, city.isEmpty, state.isEmpty, zipCode.isEmpty {
-      print("Please enter address.")
-    }
   }
   
   func detectBirthday() throws {

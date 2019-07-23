@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol Swipable {
+protocol Swiping {
   var passHolderType: PassType? { get }
   
   var lastSwipedForArea: AreaType? { get }

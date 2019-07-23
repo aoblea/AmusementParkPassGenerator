@@ -20,7 +20,7 @@
 		AE0AD84522CFBFB100A7730E /* Entrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0AD84422CFBFB100A7730E /* Entrant.swift */; };
 		AE0AD84922D821FA00A7730E /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0AD84822D821FA00A7730E /* Error.swift */; };
 		AE0AD84B22D828C200A7730E /* Perks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0AD84A22D828C200A7730E /* Perks.swift */; };
-		AE0AD84D22E52EFE00A7730E /* Swipable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0AD84C22E52EFE00A7730E /* Swipable.swift */; };
+		AE0AD84D22E52EFE00A7730E /* Swiping.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0AD84C22E52EFE00A7730E /* Swiping.swift */; };
 		AE0AD84F22E52F2B00A7730E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0AD84E22E52F2B00A7730E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,7 +61,7 @@
 		AE0AD84422CFBFB100A7730E /* Entrant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entrant.swift; sourceTree = "<group>"; };
 		AE0AD84822D821FA00A7730E /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		AE0AD84A22D828C200A7730E /* Perks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perks.swift; sourceTree = "<group>"; };
-		AE0AD84C22E52EFE00A7730E /* Swipable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swipable.swift; sourceTree = "<group>"; };
+		AE0AD84C22E52EFE00A7730E /* Swiping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiping.swift; sourceTree = "<group>"; };
 		AE0AD84E22E52F2B00A7730E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,7 +150,7 @@
 				AE0AD83A22CF01F000A7730E /* Guest.swift */,
 				AE0AD84222CF982D00A7730E /* Pass.swift */,
 				AE0AD84A22D828C200A7730E /* Perks.swift */,
-				AE0AD84C22E52EFE00A7730E /* Swipable.swift */,
+				AE0AD84C22E52EFE00A7730E /* Swiping.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -324,7 +324,7 @@
 				AE0AD84322CF982D00A7730E /* Pass.swift in Sources */,
 				AE0AD84B22D828C200A7730E /* Perks.swift in Sources */,
 				3A8AADC91DF9B85E00A2B931 /* AppDelegate.swift in Sources */,
-				AE0AD84D22E52EFE00A7730E /* Swipable.swift in Sources */,
+				AE0AD84D22E52EFE00A7730E /* Swiping.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

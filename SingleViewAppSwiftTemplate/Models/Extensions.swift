@@ -113,6 +113,8 @@ extension Entrant {
       
       if discountType == .food {
         switch passType {
+        case .classic, .freeChild:
+          print("Discounts for \(passType) passes are unavailable for \(discountType).")
         case .vip:
           foodDiscountPercent = 10
           print("\(passType) pass: You have \(foodDiscountPercent)% discount on food.")
@@ -125,13 +127,14 @@ extension Entrant {
           foodDiscountPercent = 25.0
           print("\(passType) pass: You have \(foodDiscountPercent)% discount on food.")
           return
-        default:
-          print("Discounts for \(passType) passes are unavailable for \(discountType).")
         }
+        
       }
       
       if discountType == .merchandise {
         switch passType {
+        case .classic, .freeChild:
+          print("Discounts for \(passType) passes are unavailable for \(discountType).")
         case .vip:
           merchandiseDiscountPercent = 20.0
           print("\(passType) pass: You have \(merchandiseDiscountPercent)% discount on merchandise.")
@@ -140,8 +143,6 @@ extension Entrant {
           merchandiseDiscountPercent = 25.0
           print("\(passType) pass: You have \(merchandiseDiscountPercent)% discount on merchandise.")
           return
-        default:
-          print("Discounts for \(passType) passes are unavailable for \(discountType).")
         }
       }
     }

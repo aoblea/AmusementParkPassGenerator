@@ -47,9 +47,7 @@ enum PassType {
   
   func evaluatePassForDiscountAccess() -> [DiscountType] {
     switch self {
-    case .classic, .freeChild:
-      return []
-    case .vip, .foodServices, .rideServices, .maintenance, .manager:
+    case .classic, .freeChild, .vip, .foodServices, .rideServices, .maintenance, .manager:
       return [.food, .merchandise]
     }
   }

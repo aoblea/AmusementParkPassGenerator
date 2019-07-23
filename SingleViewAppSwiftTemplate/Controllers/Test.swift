@@ -16,19 +16,20 @@ class ViewController: UIViewController {
 
     do {
       
+      // Uncomment and comment per entrant situation
 //      let classic = ClassicGuest()
 //      try classic.swipe(pass: .classic, for: .amusement)
 //      try classic.swipe(pass: .classic, atRegister: .food)
-      
+
 //      let vip = VIPGuest()
 //      try vip.swipe(pass: .vip, atRegister: .merchandise)
 //      try vip.swipe(pass: .vip, to: .skipRideLines)
-      
+
 //      // Change dateOfBirth to today's date for birthday swipe test
-//      let freeChild = try FreeChildGuest(dateOfBirth: "07/21/2018")
+//      let freeChild = try FreeChildGuest(dateOfBirth: "07/24/2018")
 //      try freeChild.swipe(pass: .freeChild, to: .allRides)
 //      try freeChild.swipe(pass: .freeChild, atRegister: .food)
-      
+
 //      let foodService = try FoodServicesEmployee(firstName: "Johnny", lastName: "Smith", streetAddress: "1234 Fake Street", city: "NY", state: "NY", zipCode: "12345")
 //      try foodService.swipe(pass: .foodServices, to: .allRides)
 //      try foodService.swipe(pass: .foodServices, atRegister: .food)
@@ -40,7 +41,6 @@ class ViewController: UIViewController {
 //      let maintenance = try MaintenanceEmployee(firstName: "Will", lastName: "Smith", streetAddress: "0921 Street", city: "MI", state: "MI", zipCode: "98765")
 //      try maintenance.swipe(pass: .maintenance, for: .maintenance)
 //      try maintenance.swipe(pass: .maintenance, atRegister: .merchandise)
-      
 
 //      let manager = try Manager(firstName: "Celine", lastName: "Mush", streetAddress: "8210 Street", city: "NY", state: "NY", zipCode: "12348")
 //      try manager.swipe(pass: .manager, for: .office)
